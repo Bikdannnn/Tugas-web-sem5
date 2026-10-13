@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Akademik — Pemrograman Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css"
+        rel="stylesheet">
+  <link rel="stylesheet" href="audit-dashboard-cacat.css">
+</head>
+<body>
+
+  <header class="main-nav">
+    <img src="aset/logo-unhas.png" class="main-nav__logo" width="40" height="40">
+    <ul class="main-nav__menu">
+      <li><a href="dashboard.html">Beranda</a></li>
+      <li><a href="krs.html">KRS</a></li>
+      <div><li><a href="khs.html">KHS</a></li></div>
+      <li><a href="profil.html">Profil</a></li>
+    </ul>
+  </header>
+
+  <main class="tata-letak">
+
+    <aside class="sidebar clearfix">
+      <h2 class="h6">Menu Cepat</h2>
+      <p>Jadwal kuliah, pengumuman, dan tautan layanan akademik.</p>
+    </aside>
+
+    <section class="konten">
+      <div class="statistik">
+        <div class="statistik__kotak" id="ringkasan">SKS diambil: 21</div>
+        <div class="statistik__kotak" id="ringkasan">Semester: 5</div>
+        <div class="statistik__kotak">Status: Aktif</div>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title h5">Indeks Prestasi Kumulatif</h2>
+            <p class="display-5">3.85</p>
+            <a href="khs.html"><button class="btn btn-outline-primary btn-sm">Lihat Detail KHS</button></a>
+          </div>
+        </article>
+        <article class="card shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title h5">Tagihan UKT</h2>
+            <p class="display-5">Lunas</p>
+          </div>
+        </article>
+        <article class="card shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title h5">Bimbingan Akademik</h2>
+            <p class="display-5">2</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="container">
+        <div class="col-md-4">Pengumuman 1</div>
+        <div class="col-md-4">Pengumuman 2</div>
+        <div class="col-md-4">Pengumuman 3</div>
+      </div>
+    </section>
+
+    <aside class="info d-flex flex-column justify-content-between align-items-start p-3 m-2 border rounded-3 shadow-sm bg-white text-dark fw-bold small">
+      <h2 class="h6">Kalender Akademik</h2>
+      <p>Batas pengisian KRS: 15 Agustus</p>
+    </aside>
+
+  </main>
+
+</body>
+</html>
